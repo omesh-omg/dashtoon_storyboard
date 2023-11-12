@@ -1,0 +1,58 @@
+
+
+.navbar{
+    margin-top: 8px;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    background-color: black;
+}
+.logoimg{
+    height: 64px;
+}
+@media screen and (max-width: 400px) {
+    .navbar h2{
+        margin-top: 8px;
+        display: flex;
+        justify-content:space-around;
+        align-items: center;
+        background-color: black;
+        font-size: 14px;
+    }
+
+    .search-label {
+      width: 90vw;
+    }
+  
+    .workspace {
+      margin-top: 40vh;
+    }
+  
+    .genrationtab,
+    .displayimg {
+      width: 95vw;
+    }
+  
+    .heroImg {
+      height: 30vh;
+    }
+  
+    .listOfImages {
+      min-width: 95vw;
+      max-width: 95vw;
+    }
+  
+    img {
+      height: 10vh;
+    }
+  
+    #overlay-button,
+    #overlay-button2 {
+      right: 0;
+    }
+    .filter-label{
+        overflow-x: auto; /* Add horizontal scrollbar if content overflows */
+        max-width: 95vw; /* Set the maximum width of the element */
+        min-width: 95vw;
+    }
+  }
